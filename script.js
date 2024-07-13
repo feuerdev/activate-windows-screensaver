@@ -45,7 +45,7 @@ function changeDirection(index, value) {
 // functions for getting the logo
 function getLogoURL() {
     if (!params.has("logo")) {
-        return "/logos/default.svg"
+        return "logos/default.svg"
     }
     
     return params.get("logo");
